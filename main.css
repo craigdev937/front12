@@ -60,7 +60,23 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.header__text h1 {
+    padding: 2rem;
+}
+
+.header__text p {
+    padding: 2rem;
+}
+
+.header__text--btn {
+    margin-left: 2rem;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 15%;
+    background: var(--pink);
 }
 
 .mockup__image {
@@ -78,5 +94,17 @@ main {
     color: hsl(228, 45%, 44%);
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 900px) {
+    .header {
+        background-image: url("./images/bg-hero-desktop.svg");
+        display: grid;
+        grid-template-areas: 
+            "header__logo"
+            "header__body"
+            "header__image"
+        ;
+    }
+}
 
 
