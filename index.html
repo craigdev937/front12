@@ -10,65 +10,129 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <!-- HEADER SECTION -->
+    <header>
+        <nav>
+            <img
+                class="nav__img"
+                alt="Huddle Logo"  
+                src="./images/logo.svg" 
+            /> 
+            <a href="#" class="nav__link">Try It Free</a>
+        </nav>
+        <section class="header__container">
+            <h1 class="header__title title">
+                Build The Community 
+                Your Fans Will Love
+            </h1>
+            <p class="header__info">
+                Huddle re-imagines the way we build 
+                communities. You have a voice, but so does 
+                your audience. Create connections with your 
+                users as you engage in genuine discussion.
+            </p>
+            <button 
+                class="header__button"
+                type="button"
+                >Get Started For Free
+            </button>
+            <img
+                class="card__image"
+                alt="Mockups"  
+                src="./images/illustration-mockups.svg" 
+            />
+        </section>
+    </header>
+    <!-- MAIN SECTION -->
     <main>
-        <section class="header">
-            <header class="header__logo">
-                <aside class="header__flex">
-                    <img
-                        alt="Huddle Logo"  
-                        src="./images/logo.svg" 
-                    /> 
-                    <button 
-                        class="header__button"
-                        type="button"
-                        >Try It Free
-                    </button>
-                </aside>
-            </header>
-            <aside class="header__body">
-                <div class="header__text">
-                    <h1>
-                        Build The Community 
-                        Your Fans Will Love
-                    </h1>
-                    <p>
-                        Huddle re-imagines the way we build 
-                        communities. You have a voice, but so does 
-                        your audience. Create connections with your 
-                        users as you engage in genuine discussion.
+        <section class="main__container">
+            <!-- GROW TOGETHER SECTION -->
+            <aside class="card">
+                <div class="card__content">
+                    <h2 class="card__title title">Grow Together</h2>
+                    <p class="card__text">
+                        Generate meaningful discussions with your 
+                        audience and build a strong, loyal community.  
+                        Think of the insightful conversations you 
+                        miss out on with a feedback form.
                     </p>
-                    <button 
-                        class="header__text--btn"
-                        type="button"
-                        >Get Started For Free
-                    </button>
+                </div>
+                <img
+                    class="card__image"  
+                    alt="Grow Together" 
+                    src="./images/illustration-grow-together.svg" 
+                />
+            </aside>
+            <!-- FLOWING CONVERSATIONS SECTION -->
+            <aside class="card">
+                <img
+                    class="card__image"  
+                    alt="Flowing Conversation" 
+                    src="./images/illustration-flowing-conversation.svg" 
+                />
+                <div>
+                    <h2 class="card__title title flowing">Flowing Conversations</h2>
+                    <p class="card__text">
+                        You wouldn't paginate a conversation in 
+                        real life, so why do it online? 
+                        Our threads have just-in-time loading 
+                        for a more natural flow.
+                    </p>
                 </div>
             </aside>
-            <aside class="header__image">
+            <!-- YOUR USERS SECTION -->
+            <aside class="card">
+                <div class="card__content">
+                    <h2 class="card__title title">Your Users</h2>
+                    <p class="card__text">
+                        It takes no time at all to integrate Huddle 
+                        with your app's authentication solution. 
+                        This means, once signed in to your app, 
+                        your users can start chatting immediately.
+                    </p>
+                </div>
                 <img
-                    class="mockup__image"
-                    alt="Mockups"  
-                    src="./images/illustration-mockups.svg" 
+                    class="card__image"  
+                    alt="Your Users" 
+                    src="./images/illustration-your-users.svg" 
                 />
             </aside>
         </section>
-
+    </main>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <aside class="footer__container">
+            <section class="footer__card">
+                <h3 class="footer__card--title title">
+                    Ready To Build Your Community?
+                </h3>
+                <button 
+                    class="footer__button" 
+                    type="button"
+                    >Get Started For Free
+                </button>
+            </section>
+            <section class="footer__link">
+                <div class="footer__logo">
+                    <img
+                        alt="Footer Logo"  
+                        src="./images/logo.svg" 
+                    />
+                </div>
+                <div class="footer__link-content">
+                    <div class="footer__card-one">
+                        <div class="footer__location">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </aside>
+    </footer>
         <!-- BEGIN UNFORMATTED TEXT for the Project -->
-        Grow Together
-
-            Generate meaningful discussions with your audience and build a strong, loyal community.
-            Think of the insightful conversations you miss out on with a feedback form.
-
-            Flowing Conversations
-
-            You wouldn't paginate a conversation in real life, so why do it online? Our threads
-            have just-in-time loading for a more natural flow.
-
-            Your Users
-
-            It takes no time at all to integrate Huddle with your app's authentication solution.
-            This means, once signed in to your app, your users can start chatting immediately.
-
             Ready To Build Your Community?
 
             Get Started For Free
@@ -89,27 +153,23 @@
 
             &copy; Copyright 2018 Huddle. All rights reserved.
         <!-- END UNFORMATTED TEXT for the Project -->
-
-
-
-        <!-- CHALLENGE FOOTER WITH LINKS -->
-        <footer class="attribution">
-            <p>
-                Challenge for
-                <a 
-                    href="https://www.frontendmentor.io?ref=challenge" 
-                    target="_blank"
-                    >Frontend Mentor
-                </a>
-                created by 
-                <a 
-                    href="https://www.frontendmentor.io/profile/indigomx9"
-                    target="_blank"
-                    >Craig Johnson
-                </a>
-            </p>
-        </footer>
-    </main>
+    <!-- CHALLENGE FOOTER WITH LINKS -->
+    <section class="attribution">
+        <p>
+            Challenge for
+            <a 
+                href="https://www.frontendmentor.io?ref=challenge" 
+                target="_blank"
+                >Frontend Mentor
+            </a>
+            created by 
+            <a 
+                href="https://www.frontendmentor.io/profile/indigomx9"
+                target="_blank"
+                >Craig Johnson
+            </a>
+        </p>
+    </section>
 </body>
 </html>
 
